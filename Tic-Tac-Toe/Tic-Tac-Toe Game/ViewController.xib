@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="15705" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="16096" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
     <device id="retina6_1" orientation="portrait" appearance="light"/>
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="15706"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="16087"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
@@ -80,16 +80,16 @@
                             </constraints>
                         </view>
                         <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="UXi-W5-UkK">
-                            <rect key="frame" x="0.0" y="343.5" width="414" height="300"/>
+                            <rect key="frame" x="0.0" y="343.5" width="414" height="210"/>
                             <subviews>
                                 <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" spacing="15" translatesAutoresizingMaskIntoConstraints="NO" id="f3o-fd-4te">
-                                    <rect key="frame" x="57" y="0.0" width="300" height="90"/>
+                                    <rect key="frame" x="107" y="0.0" width="200" height="60"/>
                                     <subviews>
                                         <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="45r-Ah-vJJ">
-                                            <rect key="frame" x="0.0" y="0.0" width="90" height="90"/>
+                                            <rect key="frame" x="0.0" y="0.0" width="56.5" height="60"/>
                                             <subviews>
                                                 <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="bCw-gm-zFm">
-                                                    <rect key="frame" x="0.0" y="0.0" width="90" height="90"/>
+                                                    <rect key="frame" x="0.0" y="0.0" width="56.5" height="60"/>
                                                     <fontDescription key="fontDescription" type="boldSystem" pointSize="40"/>
                                                     <state key="normal">
                                                         <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
@@ -108,10 +108,10 @@
                                             </constraints>
                                         </view>
                                         <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="hkM-0e-eKd">
-                                            <rect key="frame" x="105" y="0.0" width="90" height="90"/>
+                                            <rect key="frame" x="71.5" y="0.0" width="57" height="60"/>
                                             <subviews>
                                                 <button opaque="NO" tag="1" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Ozc-CQ-ptT">
-                                                    <rect key="frame" x="0.0" y="0.0" width="90" height="90"/>
+                                                    <rect key="frame" x="0.0" y="0.0" width="57" height="60"/>
                                                     <fontDescription key="fontDescription" type="system" pointSize="40"/>
                                                     <connections>
                                                         <action selector="plays:" destination="-1" eventType="touchUpInside" id="2FI-el-ME5"/>
@@ -127,10 +127,10 @@
                                             </constraints>
                                         </view>
                                         <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="UK8-Nr-4o3">
-                                            <rect key="frame" x="210" y="0.0" width="90" height="90"/>
+                                            <rect key="frame" x="143.5" y="0.0" width="56.5" height="60"/>
                                             <subviews>
                                                 <button opaque="NO" tag="2" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="2FR-lk-1iQ">
-                                                    <rect key="frame" x="0.0" y="0.0" width="90" height="90"/>
+                                                    <rect key="frame" x="0.0" y="0.0" width="56.5" height="60"/>
                                                     <connections>
                                                         <action selector="plays:" destination="-1" eventType="touchUpInside" id="FTZ-fA-3rc"/>
                                                     </connections>
@@ -146,18 +146,17 @@
                                         </view>
                                     </subviews>
                                     <constraints>
-                                        <constraint firstItem="45r-Ah-vJJ" firstAttribute="width" secondItem="f3o-fd-4te" secondAttribute="width" multiplier="0.3" id="ZGF-ei-qpb"/>
                                         <constraint firstItem="45r-Ah-vJJ" firstAttribute="height" secondItem="f3o-fd-4te" secondAttribute="width" multiplier="0.3" id="kjG-4k-2fP"/>
                                     </constraints>
                                 </stackView>
                                 <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" spacing="15" translatesAutoresizingMaskIntoConstraints="NO" id="bBa-Ac-R9S">
-                                    <rect key="frame" x="57" y="105" width="300" height="90"/>
+                                    <rect key="frame" x="107" y="75" width="200" height="60"/>
                                     <subviews>
                                         <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="SKo-eG-Ys2">
-                                            <rect key="frame" x="0.0" y="0.0" width="90" height="90"/>
+                                            <rect key="frame" x="0.0" y="0.0" width="56.5" height="60"/>
                                             <subviews>
                                                 <button opaque="NO" tag="3" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Oak-FV-YQD">
-                                                    <rect key="frame" x="0.0" y="0.0" width="90" height="90"/>
+                                                    <rect key="frame" x="0.0" y="0.0" width="56.5" height="60"/>
                                                     <connections>
                                                         <action selector="plays:" destination="-1" eventType="touchUpInside" id="uUf-mW-lVh"/>
                                                     </connections>
@@ -172,10 +171,10 @@
                                             </constraints>
                                         </view>
                                         <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="6lZ-jp-wwp">
-                                            <rect key="frame" x="105" y="0.0" width="90" height="90"/>
+                                            <rect key="frame" x="71.5" y="0.0" width="57" height="60"/>
                                             <subviews>
                                                 <button opaque="NO" tag="4" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="POh-a6-rit">
-                                                    <rect key="frame" x="0.0" y="0.0" width="90" height="90"/>
+                                                    <rect key="frame" x="0.0" y="0.0" width="57" height="60"/>
                                                     <connections>
                                                         <action selector="plays:" destination="-1" eventType="touchUpInside" id="O0h-4P-dBy"/>
                                                     </connections>
@@ -190,10 +189,10 @@
                                             </constraints>
                                         </view>
                                         <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="yzt-9T-cVN">
-                                            <rect key="frame" x="210" y="0.0" width="90" height="90"/>
+                                            <rect key="frame" x="143.5" y="0.0" width="56.5" height="60"/>
                                             <subviews>
                                                 <button opaque="NO" tag="5" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="zfg-Jf-zi8">
-                                                    <rect key="frame" x="0.0" y="0.0" width="90" height="90"/>
+                                                    <rect key="frame" x="0.0" y="0.0" width="56.5" height="60"/>
                                                     <connections>
                                                         <action selector="plays:" destination="-1" eventType="touchUpInside" id="Azi-uG-BI8"/>
                                                     </connections>
@@ -210,13 +209,13 @@
                                     </subviews>
                                 </stackView>
                                 <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" spacing="15" translatesAutoresizingMaskIntoConstraints="NO" id="OcS-76-5C0">
-                                    <rect key="frame" x="57" y="210" width="300" height="90"/>
+                                    <rect key="frame" x="107" y="150" width="200" height="60"/>
                                     <subviews>
                                         <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="dqg-0L-z01">
-                                            <rect key="frame" x="0.0" y="0.0" width="90" height="90"/>
+                                            <rect key="frame" x="0.0" y="0.0" width="56.5" height="60"/>
                                             <subviews>
                                                 <button opaque="NO" tag="6" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="RLA-V6-E83">
-                                                    <rect key="frame" x="0.0" y="0.0" width="90" height="90"/>
+                                                    <rect key="frame" x="0.0" y="0.0" width="56.5" height="60"/>
                                                     <connections>
                                                         <action selector="plays:" destination="-1" eventType="touchUpInside" id="pYl-0i-j3c"/>
                                                     </connections>
@@ -231,10 +230,10 @@
                                             </constraints>
                                         </view>
                                         <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="xr2-9j-fRl">
-                                            <rect key="frame" x="105" y="0.0" width="90" height="90"/>
+                                            <rect key="frame" x="71.5" y="0.0" width="57" height="60"/>
                                             <subviews>
                                                 <button opaque="NO" tag="7" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="GgI-Ls-gND">
-                                                    <rect key="frame" x="0.0" y="0.0" width="90" height="90"/>
+                                                    <rect key="frame" x="0.0" y="0.0" width="57" height="60"/>
                                                     <connections>
                                                         <action selector="plays:" destination="-1" eventType="touchUpInside" id="yJB-9U-Dz3"/>
                                                     </connections>
@@ -249,10 +248,10 @@
                                             </constraints>
                                         </view>
                                         <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="qhk-TI-M9E">
-                                            <rect key="frame" x="210" y="0.0" width="90" height="90"/>
+                                            <rect key="frame" x="143.5" y="0.0" width="56.5" height="60"/>
                                             <subviews>
                                                 <button opaque="NO" tag="8" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="FDi-jV-ZnE">
-                                                    <rect key="frame" x="0.0" y="0.0" width="90" height="90"/>
+                                                    <rect key="frame" x="0.0" y="0.0" width="56.5" height="60"/>
                                                     <connections>
                                                         <action selector="plays:" destination="-1" eventType="touchUpInside" id="CR5-bM-39u"/>
                                                     </connections>
@@ -287,7 +286,7 @@
                             </constraints>
                         </view>
                         <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="MVt-7R-7jz">
-                            <rect key="frame" x="0.0" y="653.5" width="414" height="179.5"/>
+                            <rect key="frame" x="0.0" y="563.5" width="414" height="179.5"/>
                             <subviews>
                                 <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="z5R-MK-2bu">
                                     <rect key="frame" x="103.5" y="63" width="207" height="53.5"/>
